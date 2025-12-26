@@ -1,0 +1,7 @@
+python-dotenv
+openai
+pandas
+numpy
+faiss-cpu
+sounddevice
+soundfile
