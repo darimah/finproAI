@@ -56,7 +56,7 @@ class Config:
     SAMPLE_RATE: int = int(os.getenv("SAMPLE_RATE", "16000"))
 
     # Fixed recording (legacy)
-    RECORD_SECONDS: int = int(os.getenv("RECORD_SECONDS", "6"))
+    RECORD_SECONDS: int = int(os.getenv("RECORD_SECONDS", "10"))
 
     # VAD recording (opsional)
     MAX_RECORD_SECONDS: int = int(os.getenv("MAX_RECORD_SECONDS", "60"))
